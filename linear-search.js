@@ -19,7 +19,7 @@ function findTarget(arr, target) {
   return false;
 }
 
-// findTarget([1, 2, 3, 4, 5, 6, 7, 8, 9], 10); Should return false
-// findTarget([20,50,40,30,10,8,9], 6); Should return false
-// findTarget([20,50,40,30,10,8,9], 50); Should return true
-// findTarget([20,50,40,30,10,8,9], 20); Should return true
+findTarget([1, 2, 3, 4, 5, 6, 7, 8, 9], 10); // Should return false
+findTarget([20, 50, 40, 30, 10, 8, 9], 6); // Should return false
+findTarget([20, 50, 40, 30, 10, 8, 9], 50); // Should return true
+findTarget([20, 50, 40, 30, 10, 8, 9], 20); // Should return true
